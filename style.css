@@ -1,0 +1,718 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+/* .maincontainer{
+    /* border: 1px solid red; */
+    /* width: 100vw; */
+    /* height: 100vh; */
+/* } */ 
+
+nav{
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 55px;
+}
+
+.plus-color{
+    color: yellow;
+    font-weight: 700px;
+}
+
+.logo p{
+    color: #fff;
+    position: relative;
+    top: -15px;
+}
+
+.fktplus{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.search{
+    background-color: #fff;
+    padding: 8px;
+    width: 600px;
+    height: 35px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1),
+    7px 7px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    margin-right: 30px;
+}
+
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+
+.loginbtn{
+    padding: 7px 40px;
+    font-size: 17px;
+    font-weight: 900px;
+    border: none;
+    outline: none;
+    color: #2874f0;
+}
+
+.navlink{
+    margin: 0px 20px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navlink i{
+    font-size: 15px;
+}
+
+.container1{
+    /* border: 1px dashed red;
+    width: 100vw;
+    height: 120px; */
+    background-color:#fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.topoffers{
+    /* border: 1px solid gray; */
+    margin-left: 50px;
+    margin-bottom: 4px;
+    /* background-color: aliceblue; */
+    /* padding-left: 22px; */
+}
+
+.photo{
+    height: 75px;
+    width: 75px;
+}
+
+.word{
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.word:hover{
+    color: dodgerblue;
+}
+
+.grocery{
+    margin-bottom: 3px;
+}
+
+.photo1{
+    height: 75px;
+    width: 75px;
+}
+.word1{
+    cursor: pointer;
+    padding-left:5px;
+    font-size: 14px;
+}
+.word1:hover{
+    color: dodgerblue;
+}
+
+.photo2{
+    height: 75px;
+    width: 75px;
+}
+.word2{
+    cursor: pointer;
+    padding-left:10px;
+    font-size: 14px;
+}
+.word2:hover{
+    color: dodgerblue;
+}
+
+.photo3{
+    height: 75px;
+    width: 75px;
+}
+.word3{
+    cursor: pointer;
+    padding-left:10px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+.word3 i{
+    font-size: 12px;
+}
+
+.word3:hover{
+    color: dodgerblue;
+    font-family: sans-serif;
+}
+
+.word3 i:hover{
+    transform: rotate(180deg);
+    transition-delay:.1s ;
+}
+
+.photo4{
+    height: 75px;
+    width: 75px; 
+}
+
+.word4{
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.word4 i{
+    font-size: 12px;
+}
+
+.word4:hover{
+    color: dodgerblue;
+}
+
+.word4 i:hover{
+    transform: rotate(180deg);
+    transition-delay:.1s ;
+}
+
+.photo5{
+    height: 75px;
+    width: 75px; 
+}
+
+.word5{
+    cursor: pointer;
+    padding-left:20px;
+    font-size: 14px;
+}
+
+.word5:hover{
+    color: dodgerblue;
+}
+.word5 i:hover{
+    transform: rotate(180deg);
+    transition-delay:.1s ;
+}
+.word5 i{
+    font-size: 12px;
+}
+.photo6{
+    height: 75px;
+    width: 75px;  
+}
+.word6{
+    cursor: pointer;
+    font-size: 14px;
+}
+.word6:hover{
+    color: dodgerblue;
+}
+
+/* .travel{
+
+} */
+.photo7{
+    height: 75px;
+    width: 75px;   
+}
+
+.word7{
+    cursor: pointer;
+    padding-left:20px;
+    font-size: 14px;
+}
+.word7:hover{
+    color: dodgerblue;
+}
+
+.beauty{
+    margin-right: 50px;
+
+}
+
+.photo8{
+    height: 75px;
+    width: 75px; 
+    padding-left: 10px; 
+}
+.word8{
+    cursor: pointer;
+    font-size: 14px;
+}
+.word8:hover{
+    color: dodgerblue;
+}
+
+.animationcontainer{
+    margin-top: 15px;
+    
+}
+.anipic{
+    height: 270px;
+    width: 100vw;
+    margin-left: 5px;
+}
+
+.bestofelectronics{
+    /* border: 1px solid gray; */
+    margin-top: 10px;
+    margin-left: 5px;
+    height: 80px;
+    width: 1220px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2,p{
+    padding-left: 25px;
+    padding-top: 10px;
+    opacity: 0.8;
+   
+}
+
+.button{
+    color: #fff;
+    background-color: dodgerblue;
+    height: 40px;
+    width: 100px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 20px;
+    
+}
+
+.container2{
+    /* border: 1px solid gray; */
+    margin-top: 2px;
+    margin-left: 5px;
+    /* height: 250px; */
+    width: 1220px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Laptops{
+    margin-top: 20px;
+    opacity: 1;
+    /* color: inherit;
+    border: none;
+    outline: none; */
+
+}
+.Laptops:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.2s;
+}
+
+.p0{
+    font-size: 14px;
+    opacity: 1;
+    cursor: pointer;
+    color: black;
+    
+}
+.p1{
+    cursor: pointer;
+    color: green;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.pp{
+    cursor: pointer;
+    color: gray;
+    margin-left: -20px;
+}
+
+.camera{
+    margin-top: 15px;
+}
+
+.camera:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.2s;
+}
+
+.p2{
+    font-size: 14px;
+    opacity: 1;
+    cursor: pointer;
+    color: black;
+    margin-left: -20px;
+}
+.p3{
+    cursor: pointer;
+    color: green;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.p4{
+    cursor: pointer;
+    color: gray;
+    margin-left: -20px;
+    /* margin-right: -0px; */
+}
+
+.dryer{
+    height: 110px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.dryer:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.2s;
+}
+
+.p5{
+    font-size: 14px;
+    opacity: 1;
+    cursor: pointer;
+    color: black;
+    margin-left: -20px;
+}
+
+.p6{
+    cursor: pointer;
+    color: green;
+    opacity: 0.5;
+    font-size: 14px;  
+}
+.p7{
+    cursor: pointer;
+    color: gray;
+    margin-left: -20px;
+}
+.powerbank{
+    height: 110px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.powerbank:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.2s;
+}
+
+.p8{
+    font-size: 14px;
+    opacity: 1;
+    cursor: pointer;
+    color: black;
+    margin-left: -30px;
+}
+
+.p9{
+    cursor: pointer;
+    color: green;
+    opacity: 0.5;
+    font-size: 14px;  
+}
+.p10{
+    cursor: pointer;
+    color: gray;
+    margin-left: -20px;
+}
+
+.printers{
+    margin-top: 45px;
+}
+
+.printers:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.2s;
+}
+
+.p11{
+    font-size: 14px;
+    opacity: 1;
+    cursor: pointer;
+    color: black;
+}
+
+.p12{
+    cursor: pointer;
+    color: green;
+    opacity: 0.5;
+    font-size: 14px;  
+}
+.p13{
+    cursor: pointer;
+    color: gray;
+}
+
+.aside{
+    height: 290px;
+    width: 250px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.threecontainer{
+    display: flex;
+}
+
+.abovefooter{
+    /* border: 1px dashed red; */
+    margin-top: 5px;
+    height: 270px;
+    width: 100vw;
+    background-color: #172337;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutus{
+    /* border: 1px dashed red; */
+    width: 150px;
+    /* width: 90%!important; */
+}
+
+.abt{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 25px;
+    opacity: 0.5;
+}
+.universal{
+    font-size: 12px;
+    color: #fff; 
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.5;
+}
+.pu1:hover{
+    text-decoration: underline;
+}
+.pu2:hover{
+    text-decoration: underline;
+}
+.pu3:hover{
+    text-decoration: underline;
+}
+.pu4:hover{
+    text-decoration: underline;
+}
+.pu5:hover{
+    text-decoration: underline;
+}
+.pu6:hover{
+    text-decoration: underline;
+}
+
+.help{
+    /* border: 1px dashed red; */
+    width: 200px;
+}
+.hlp{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 25px;
+    opacity: 0.5;
+}
+
+.helpuniversal{
+    font-size: 12px;
+    color: #fff; 
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.hlp1:hover{
+    text-decoration: underline;
+}
+.hlp2:hover{
+    text-decoration: underline;
+}
+.hlp3:hover{
+    text-decoration: underline;
+}
+.hlp4:hover{
+    text-decoration: underline;
+}
+.hlp5:hover{
+    text-decoration: underline;
+}
+
+.policy{
+    /* border: 1px dashed red; */
+    width: 200px;
+}
+
+.pol{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 25px;
+    opacity: 0.5; 
+}
+
+.poluniversal{
+    font-size: 12px;
+    color: #fff; 
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.pol1:hover{
+    text-decoration: underline;
+}
+.pol2:hover{
+    text-decoration: underline;
+}
+.pol3:hover{
+    text-decoration: underline;
+}
+.pol4:hover{
+    text-decoration: underline;
+}
+.pol5:hover{
+    text-decoration: underline;
+}
+.pol6:hover{
+    text-decoration: underline;
+}
+
+.social{
+    /* border: 1px dashed red; */
+    width: 180px;
+    height: 180px;
+}
+
+.soc{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 25px;
+    opacity: 0.5;  
+}
+
+.socuniversal{
+    font-size: 12px;
+    color: #fff; 
+    cursor: pointer;
+    text-decoration: none;
+    line-height: 1.5; 
+}
+
+.soc1:hover{
+    text-decoration: underline;
+}
+.soc2:hover{
+    text-decoration: underline;
+}
+.soc3:hover{
+    text-decoration: underline;
+}
+
+.mailus{
+    /* border: 1px dashed red; */
+    width: 200px;
+}
+
+.mail{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 25px;
+    opacity: 0.5;  
+}
+
+.mailuniversal{
+    font-size: 12px;
+    color: #fff; 
+    cursor: pointer;
+    text-decoration: none;
+    /* line-height: 1.5;  */
+}
+
+.officeaddress{
+   /* border: 1px dashed red; */
+   width: 280px;
+   /* width: 90%!important; */ 
+}
+
+.address{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 25px;
+    opacity: 0.5; 
+}
+
+.adduniverasal{
+    font-size: 12px;
+    color: #fff; 
+    cursor: pointer;
+    text-decoration: none;
+    /* line-height: 1.5;  */
+}
+
+.footer{
+    /* border: 1px solid red; */
+    height: 80px;
+    width: 100vw;
+    margin-top: 1px;
+    background-color:#172337 ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.span1{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.span2{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.span3{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.span4{
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+    display: inline-block;
+}
+.span5{
+    color: #fff;
+    font-size: 14px;
+}
+
+.logo5{
+    height: 20px;
+}
+
+
+
+
+
+
+
+
